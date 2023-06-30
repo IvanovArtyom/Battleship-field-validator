@@ -1,0 +1,1 @@
+# Battleship field validator
