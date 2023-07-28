@@ -68,7 +68,8 @@ namespace Solution
 
             for (int i = 0; i < ships.Count; i++)
             {
-                if (!ships[i].All(p => p.X == ships[i].First().X) && !ships[i].All(p => p.Y == ships[i].First().Y))
+                if (!ships[i].All(p => p.X == ships[i].First().X)
+                    && !ships[i].All(p => p.Y == ships[i].First().Y))
                     return false;
             }
 
